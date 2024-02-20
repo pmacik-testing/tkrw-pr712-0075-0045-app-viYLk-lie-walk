@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zlfg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0045-tenant/tkrw-pr712-0075-0045-app/devfile-sample-zlfg@sha256:51b55de572f7f486ad43627c7e318fbe46472fb291938ddfbbe0c9caca341318
         name: my-nodejs
         ports:
         - containerPort: 3001
